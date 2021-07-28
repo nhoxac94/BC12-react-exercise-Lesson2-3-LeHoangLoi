@@ -1,0 +1,141 @@
+/* Glasses exercise */
+#tryGlassesContent {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;    
+    text-align:center;
+    background-image: url(../glassesImage/background.jpg);   
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow: hidden;
+} 
+
+#tryGlassesContent h1 {
+    width: 1200px;
+    position: absolute;
+    top : 0;    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    
+}
+
+#tryGlassesContent .model {
+    padding: 150px 0;   
+    justify-content: space-evenly;
+}
+
+#tryGlassesContent .glasses {
+    width: 80%;
+    margin: auto;
+    background-color:transparent;
+
+}
+
+#tryGlassesContent .glassesItem img{
+    width: 100%;
+    border: 1px solid rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+.tryModal {
+    width: 100%;
+    position: relative;
+    
+}
+
+.tryGlasses {
+    width: 55%;
+    position: absolute;
+    top: 50px;
+    left: 48px;    
+    background-color:transparent;
+    opacity: 0.8;
+}
+.modalDesc {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    background-color: rgba(224, 125, 58, 0.5)
+}
+
+.modalDesc h3 {
+    color: rgb(0, 162, 255);
+    font-size:15px;
+}
+.modalDesc p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+
+}
+
+#tryGlassesContent .active {
+    background-color: rgba(224, 125, 58, 0.5);
+}
+
+.glasses {
+    padding-bottom: 100px;
+}
+
+/* Car exercise */
+#cars {
+    max-width: 1200px;
+    padding-top: 20px;
+}
+
+#cars .colorCar , .wheels{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#cars .changeCar h3{
+    background-color:rgba(0, 0, 0, 0.125);
+    color: rgba(0, 204, 255, 0.644);
+    font-size: 20px;
+    font-weight:normal;
+    padding-left: 10px;
+    margin: 0;
+    line-height:1.5;
+}
+
+#cars .changeCar ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#cars .changeCar li {
+    cursor: pointer;
+}
+#cars .changeCar h4{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom:0
+}
+#cars .changeCar p{
+    margin-bottom:15px
+}
+.colorCarItem, .wheelItem {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.colorCarItem .col-2 {
+    padding: 10px 0 5px 5px;  
+
+}
+
+.wheelItem .col-2 {   
+    padding : 5px 0 5px 5px ;
+}
+#cars .wheelItem h4 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#cars .active {
+    border: 1px solid rgba(0, 204, 255, 0.644);;
+}
